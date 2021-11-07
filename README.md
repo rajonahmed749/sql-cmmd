@@ -11,3 +11,12 @@
 
 #### Insert Data
     insert into Job values('Emp_07', 'nuru','labour','2500','Labour')
+
+#### Selcet Data
+    SELECT * from Job where 
+    Salary > 5000
+
+
+#### Update Data
+    update Job set Salary=15000
+    where Salary=8000
