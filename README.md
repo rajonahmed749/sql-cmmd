@@ -20,3 +20,7 @@
 #### Update Data
     update Job set Salary=15000
     where Salary=8000
+
+#### Delete Data
+    delete from Job 
+    where Emp_name='nuru'
