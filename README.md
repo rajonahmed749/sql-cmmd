@@ -24,3 +24,14 @@
 #### Delete Data
     delete from Job 
     where Emp_name='nuru'
+
+
+#### Delete Column
+
+    ALTER TABLE Students 
+    DROP COLUMN Salary
+
+#### Add Column
+
+    ALTER TABLE Students 
+    ADD COLUMN BirthDate date
